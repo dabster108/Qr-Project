@@ -12,3 +12,4 @@ def customization(url, fill_color, background_color):
    
     img = qr.make_image(fill_color= fill_color, back_color= background_color)
     img.save("custom_code.png")
+
