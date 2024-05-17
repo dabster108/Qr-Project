@@ -1,4 +1,5 @@
 import validators
+import sys
 
 def is_valid_url(url):
     return validators.url(url)
@@ -8,3 +9,8 @@ if is_valid_url(url):
     pass
 else:
     print("The URL is not valid.")
+    sys.exit()
+    
+
+
+
