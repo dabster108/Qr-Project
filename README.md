@@ -3,5 +3,8 @@
 
 
 *Basically first we are going to install qr code library using command pip install qr code . And once the library is installed , we can import in our python script and also generate the qr code .
-Step 1 : pip install qrcode -- library 
-Step 2: import qrcode 
+
+* Library Used 
+Qrcode - pip install qrcode and import qrcode
+Validator -- pip install validators and import validators
+System -- import sys
