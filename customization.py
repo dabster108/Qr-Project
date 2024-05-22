@@ -1,6 +1,5 @@
 import qrcode
 import qrcode.constants
-from main import save_name
 
 def customization(url, fill_color, background_color):
     qr = qrcode.QRCode(version=1,
@@ -11,9 +10,5 @@ def customization(url, fill_color, background_color):
     qr.add_data(url)
     qr.make(fit=True)
    
-    img = qr.make_image(fill_color= fill_color, back_color= background_color)
+    img = qr.make_image(fill_color=fill_color, back_color=background_color)
     img.save("save_code.png")
-    
-    
-    
-    

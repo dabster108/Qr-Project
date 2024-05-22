@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.flexible-image {
+    max-width: 40%; 
+    max-height: 50%; 
+    width: auto;
+    height: auto; 
+    display: block;
+}

@@ -12,10 +12,8 @@ def user_view(user_input):
         
     return fill_color, background_color
 
-
 user_input = input("Do you want to use default colors for the QR code? (yes/no or d for default): ")
 fill_color, background_color = user_view(user_input)
 img = qr.make(url)
 customization.customization(url, fill_color, background_color)
-
 
