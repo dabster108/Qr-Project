@@ -11,4 +11,5 @@ def customization(url, fill_color, background_color):
     qr.make(fit=True)
    
     img = qr.make_image(fill_color=fill_color, back_color=background_color)
-    img.save("save_code.png")
+    img.save("save_code.png") 
+                    
