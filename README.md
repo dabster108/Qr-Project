@@ -8,3 +8,12 @@
 Qrcode - pip install qrcode and import qrcode
 Validator -- pip install validators and import validators
 System -- import sys
+
+
+#Team members assigned to this Project
+* Main.py : Dikshanta Chapagain
+* Customization.py : Biplov Gautam
+* Index.html : Roshan Jaishi
+* url_handling : Rohit Shah
+* Style.css : Sheshub Thapa
+* Readme Md : Mandish Pratap Singh
